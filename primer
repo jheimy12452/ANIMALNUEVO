@@ -1,0 +1,12 @@
+package Primer;
+
+import Animal.Animal;
+
+public class primer extends Animal {
+    public primer(){
+
+    }
+    public void sonido(){
+        System.out.println(this.getNombre()+" primer comit");
+    }
+}
